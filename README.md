@@ -1,0 +1,1 @@
+# My_paint_App for study purpose. Basic tools like pencil,eraser, line drawing tool,eraser, and also a image upload button is there.ALso, you can clear the canvas.When the save button gets clicked a new window gets pop up and u can save the image from there.Still small bugs are there.
