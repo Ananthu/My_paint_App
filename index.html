@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+   <title>MyApp</title>
+   <link rel="stylesheet" href="index.css">
+   
+</head>
+
+<body style='margin: 0'>
+   <div id="toolbar">
+      
+    
+      <label for="fileUpload" class="custom-file-upload">
+        <i class="fa fa-cloud-upload"></i>Upload Image
+      </label>
+      <input id="fileUpload" type="file"/>
+      <div id="rad">
+          Size Controll Tool<span id="radval"> 10</span>
+          <div id="decrad" class="radcontrol">-</div>
+	  <div id="incrad" class="radcontrol">+</div>
+      </div>
+      <div id="colors"> </div>
+       
+   </div>
+   <div id="toolbar1">
+	  <img id="line" src="./images/images (3).png" width="60" height="60"></img>	
+	  <img id="brush" src="./images/brush.png" width="60" height="60"></img>
+	  <img id="pencil" src="./images/pencil_icon.jpg" width="60" height="60"></img>
+	  <img id="eraser" src="./images/eraser.jpg" width="60" height="60"></img>
+	  <img id="clear" src="./images/refresh.jpg" width="60" height="60"></img>
+	  <img id="save" src="./images/save.jpg" width="60" height="60"></img>
+
+   </div>
+   <canvas id="canvas" style="display: block;"> </canvas>
+	   <script src="line.js"> </script>
+	   <script src="index.js"></script>
+	   <script src="loader.js"></script> 
+	   <script src="radius.js"></script>
+	   <script src="colors.js"></script>
+	   <script src="save.js"></script> 
+	
+	     
+	   
+</body>
+</html>
+
